@@ -89,33 +89,34 @@ The frontend is built with **React.js**, and the backend uses **Node.js** with *
 **Clone the repository**
 ```bash
 git clone https://github.com/na23b005/IBY
-
+```
 ## Backend Setup
-
 ```bash
 cd backend
 npm install
-
+```
 Create a .env file in the backend folder with the following variables:
-
+```bash
 MONGODB_URI=<your-mongodb-connection-string>
 BREVO_API_KEY=<your-brevo-api-key>
 EMAIL_USER=<your-email-address>
 EMAIL_PASS=<your-email-password>
 PORT=4000
-
+```
 Frontend Setup
+```bash
 cd ../frontend
 npm install
 npm run dev
-
+```
 The frontend runs on http://localhost:3000
  by default.
 
 Run Backend
+```bash
 cd ../backend
 npm run start
-
+```
 
 The backend runs on http://localhost:4000
 
